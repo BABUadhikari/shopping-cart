@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Navigation() {
     const cartStyle = {
         background :'#F59E0D',
-        display : 'flex',
+        display : 'flex', 
         padding: '6px 12px',
         borderRadius : '50px'
 
