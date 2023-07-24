@@ -1,16 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './index.css'
+import Main from './Main';
 
-function App() {
+function Index() {
 
-  return <>
-      <h1> hello from first page</h1>
-  </>
+  return (
+    <>
+      <Main />
+    </>
+  )
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Index/>
   </React.StrictMode>
 );
